@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="1">
+ <tileset firstgid="1" name="chama" tilewidth="16" tileheight="16" tilecount="7" columns="7">
+  <image source="chama.png" width="112" height="16"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="6" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="2" name="Back2" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="3" name="Back3" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="6" name="Buildings2" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="7" name="Paths" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="8" name="Front" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="9" name="AlwaysFront" width="1" height="1">
+  <data encoding="csv">
+1
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="10" name="Back2"/>
+ <objectgroup id="11" name="Back3"/>
+ <objectgroup id="12" name="Buildings"/>
+ <objectgroup id="13" name="Buildings2"/>
+ <objectgroup id="14" name="Paths"/>
+ <objectgroup id="15" name="Front"/>
+ <objectgroup id="16" name="AlwaysFront"/>
+</map>

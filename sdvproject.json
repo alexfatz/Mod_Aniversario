@@ -1,0 +1,10 @@
+{
+    "defaultProject": "SDVBR_Aniversario",
+    "mods_path": null,
+    "projects": {
+        "SDVBR_Aniversario": {
+            "path": "SDVBR_Aniversario",
+            "framework": "ContentPatcher"
+        }
+    }
+}
